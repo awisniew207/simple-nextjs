@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { signAndCombineAndSendTx } from './litcode'; // Assuming the function is exported from this file
+import { signAndCombineAndSendTx } from './litcode'; 
 
 const LitIntegrationPage = () => {
   const [output, setOutput] = useState('');
